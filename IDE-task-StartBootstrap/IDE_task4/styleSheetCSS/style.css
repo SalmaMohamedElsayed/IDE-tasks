@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+body, html{
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 2rem;
+   
+}
+.container{
+   width: 85%;
+   margin: 0 auto;
+   padding: 0 20 px;
+  
+   
+}
+
+.clear{
+   clear:both;
+}
+
+.text-center{
+   text-align: center;
+}
+
+.text-primary{
+   color: darkgrey;
+}
+
+.text-black{
+   color: black;
+}
+
+.text-white{
+   color:white;
+}
+
+.navbar{
+   padding: 10px 0;
+}   
+.showcase{
+   height: 700px;
+   background: url('../images/banner-images/header-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   opacity: 100%;
+     /*
+   background: url('computer_office_laptop.jpg') no-repeat
+   center center/cover;
+   
+   background: url('computer_office_laptop.jpg');
+   
+   */
+}
+
+.showcase-text{
+   padding-top: 80px;
+}
+
+.subheading{
+   font-size: 3rem; 
+   word-spacing: 2px;
+   padding: 20px 0;
+   color: white;
+   font-weight: 600;
+}
+.showcase-text hr 
+,.service hr
+,.contact hr{
+   width: 5%;
+   margin: 10px auto;
+   border: 2px solid #f35423;
+}
+
+.showcase-text .mashead-heading
+, .About .mashead-heading
+,.service .row .col .mashead-heading
+, .contact p
+ {
+   font-size: 1.1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   word-spacing: 2px;
+   line-break: normal;
+   /*text-transform: uppercase;*/
+   padding: 20px 0;
+   color: rgb(161, 157, 157);
+   
+}
+.showcase-text button{
+   font-size: 1.1rem;
+   margin-top: 30px;
+   font-weight: bold;
+   border-radius: 30px;
+   background-color:  #e04b1e;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;
+   border: none;
+}
+
+.showcase-text button:hover{
+   background-color: #ff2205;
+} 
+
+.navbar .nav_items{
+   display: flex;
+   justify-content: space-between ;
+}
+
+.navbar .nav_items a{
+   color: darkgrey;
+   font-weight: bold;
+   text-decoration: none;
+
+}
+
+.navbar .nav_items .logo {
+   font-size: 1.2rem;
+   padding-top: 13px;
+
+}
+
+.navbar .nav_items .links ul li{
+   display: inline-block;
+   padding: 0 12px;
+   font-size: 1.1rem;
+}
+
+.navbar .nav_items a:hover{
+   color: white;
+}
+
+.About 
+{
+   background-color: #e04b1e;
+   padding-top: 80px;
+}
+
+.About .subheading{
+   font-size: 1.5rem; 
+   word-spacing: 2px;
+   padding: 20px 0;
+   color: white;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.About hr{
+   width: 5%;
+   margin: 10px auto;
+   border: 2px solid white;
+}
+.About button
+,.portofolio button
+{
+   font-size: 1rem;
+   margin-top: 10px;
+   margin-bottom: 80px;
+   font-weight: 600;
+   border-radius: 30px;
+   background-color: white;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color:black;
+   border: none;
+   text-transform: uppercase;
+}
+.About button:hover
+,.portofolio button:hover{
+   background-color:darkgray;
+} 
+
+.service,
+.contact {
+   background-color:white;
+   padding-top: 100px;
+}
+.service .subheading
+,.contact .subheading{
+   font-size: 1.8rem;
+    
+   word-spacing: 5px;
+   padding: 20px 0;
+   color: black;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.service .row{
+   display: flex;
+   margin-top: 50px;
+}
+.service .row .col{
+   padding: 20px;
+}
+.service .row .col h3{
+   margin: 25px 0;
+   font-size: 1.5rem;
+}
+/*
+.service .row .col .service-padding{
+    padding: -5px;
+}
+*/
+
+.portofolio 
+{
+   background-color: #413a38;
+   padding-top: 80px;
+}
+.portofolio h2{
+   font-size: 1.9rem; 
+   word-spacing: 2px;
+   padding: 30px 0;
+   color: white;
+   font-weight: 570;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.portofolio .row{
+   margin-top: 20px;
+   display: flex;
+  
+  justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+   
+   /*object-fit: cover;*/
+   /*flex-wrap: wrap;*/
+}
+.portofolio .row .col{
+   /*flex:33.3%;*/
+   padding: 10px;
+  /* margin: -6px 0;*/
+}
+.portofolio .row .col:hover {
+  opacity: 0.3;
+   
+}
+/*
+.portofolio .hover-text{
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  /* background-color:rgb(235, 87, 18 ); 
+}
+.portofolio .text{
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+}
+*/
+.contact .row{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+.contact .row .col .mail{
+   color: red;
+}
+.contact .row .col a{
+   color: #2f2f2f;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+.contact .row .col .mail:hover{
+   color: rgb(160, 56, 56);
+   text-decoration: underline;
+}
+/* footer Style */
+footer{
+   margin-top: 20px;
+   padding: 20px;
+   background-color: rgb(235, 231, 231);
+   color: rgba(44, 42, 42);
+}
+/*
+.services .row .col h3{
+   margin: 25px 0;
+   font-size: 2rem;
+}
+*/
+
