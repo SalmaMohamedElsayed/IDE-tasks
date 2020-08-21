@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.bg-dark{
+    background-color: #2F2F2F;
+}
+.text-black{
+    color: black;
+}
+.bg-primary{
+    background-color: transparent;
+}
+.text-white{
+    color: #fff;
+}
+
+.text-red{
+    color: red;
+}
+/* Navbar Style */
+.navbar{
+    padding: 16px 0;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-items .logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    /*color: #FED136;*/
+    font-weight: bold;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.navbar .nav-items .links ul li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.navbar .nav-items .links ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+.showcase{ 
+    height: 700px;
+   background: url('../images/banner/header-bg1.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   opacity: 100%;
+}
+
+.showcase .showcase-text{
+    padding-top: 140px;
+}
+.showcase .subheading
+, .work .subheading{
+    font-size: 1.8rem;
+    word-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    padding: 30px 0;
+    font-weight: 600;
+}
+
+.showcase .showcase-text .mashead-heading{
+    font-size: 0.9rem;
+    word-spacing: 4px;
+    padding: 10px 0;
+}
+
+.showcase .showcase-text button{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 12px;
+    /*border: none;*/
+}
+
+.work
+{
+   padding-top: 50px;
+}
+
+.work hr{
+    width: 5%;
+   margin: 5px auto;
+   border: 2px solid red;
+}
+
+.work .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.work .row .col{
+    margin: -6px 0;
+}
+.work .row .col img:hover{
+    opacity: .8;
+}
