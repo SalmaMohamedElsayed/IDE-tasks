@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+h2{
+    font-family: cursive;
+    font-size: 1.6rem;
+    width: 200px;
+    border-bottom-style: solid ;
+    border-bottom-color: orange;
+    border-bottom-width: 2px;
+    border-right-style: solid ;
+    border-right-color:  orange;
+    border-right-width: 2px;
+    padding-bottom: 10px;
+    box-shadow: 5px 10px 8px #2f2f2f;
+    margin-bottom: 30px;
+    /*padding-right: -10px;*/
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.row .col img{
+    width: 400px;
+    height: 400px;
+    margin:5px;
+    transition: all 1s ease-in-out;
+}
+
+.row .col img:hover{
+    transform: scale(1.2);
+    
+}
+
