@@ -1,0 +1,113 @@
+@charset 'utf-8';
+/* Main Style */
+html , body {
+    font-family: sans-serif;
+    line-height: 1.7rem;
+}
+
+
+.text-black{
+    color:black !important;
+}
+
+.padding-nav{
+    padding-right:30px !important;
+    
+}
+
+.padding-li{
+    padding-right:60px !important;
+}
+
+.padding-logo{
+    padding-left: 60px !important;
+}
+
+.btn-free{
+    background-color: #E01705;
+    color:white;
+    font-size: 20px !important;
+    border-radius: 40px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-right: 20px;
+}
+
+.btn-premium{
+    background-color: #0A1F44;
+    color:white;
+    font-size: 20px !important;
+    border-radius: 40px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-right: 18px;;
+}
+
+.banner-font-h1{
+    color: #0A1F44;
+    font-weight: bolder;
+}
+.banner-font-p{
+    color: #0A1F44;
+    font-size: 15px;
+}
+/*
+.banner-data{
+    display:flex;
+    justify-content: space-between;
+}
+*/
+.features{
+    margin-top:100px !important;
+}
+
+.padding-features{
+    padding-top: 60px !important;
+}
+.features-font-p{
+    
+    color: #E01705;
+    font-weight:bold;
+}
+
+.features-font-p2{
+    /*padding-top: 15px !important;*/
+    color: #0A1F44;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.features .row
+, .Testimonials .row
+, .FAQ .row{
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.features .row h4
+, .Testimonials .row h4
+, .FAQ .row h4{
+    font-weight: bold;
+    color: #0A1F44;
+} 
+
+.Testimonials{
+    margin-top: 40px;
+}
+/*
+.Testimonials img{
+    float:left;
+    margin-left:150px;
+    margin-top: 70px;;
+}
+*/
+ 
+
+.FAQ{
+    margin-top: 400px;
+}
