@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <input type = "number" id = "First_num" >
+        <input type = "number" id = "sec_num" >
+        <br>
+        <br>
+        
+        <button style = "margin-left: 15px;"onclick="sum()" > Sum</button>
+        <button style = "margin-left: 15px;"onclick="subtract()" > subtract</button>
+       
+        <br>
+        <button style = "margin-left: 180px; padding-top: 20px; padding-bottom: 20px;
+        padding-left:30px; padding-right:30px;" onclick="total()" > +-*/</button>
+        <br>
+        
+        <button style = "margin-left: 15px;" onclick="divide()" > divide</button>
+        <button style = "margin-left: 15px;" onclick="Multiply()" > Multiply</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p id = "result-value">
+            Result: 0 
+        </p>
+       
+        <script>
+            function total(){
+             var n1 = parseFloat(document.getElementById("First_num").value),
+                n2 = parseFloat(document.getElementById("sec_num").value);
+                var n3 = (n1 + n2) + (n1 - n2) + (n1 / n2) + (n1 * n2);
+                console.log(n3);
+                document.getElementById("result-value").innerHTML = "Result: " + n3;
+               // console.log(document.getElementById("name").value);
+            }
+            function sum(){
+                var n1 = parseFloat(document.getElementById("First_num").value),
+                n2 = parseFloat(document.getElementById("sec_num").value);
+                var n3 = n1 + n2;
+                console.log(n3);
+                document.getElementById("result-value").innerHTML = "Result: " +n3;
+               // console.log(document.getElementById("name").value);
+            }
+
+            function subtract(){
+                var n1 = parseFloat(document.getElementById("First_num").value),
+                n2 = parseFloat(document.getElementById("sec_num").value);
+                var n3 = n1 - n2;
+                console.log(n3);
+                document.getElementById("result-value").innerHTML = "Result: " +n3;
+               // console.log(document.getElementById("name").value);
+            }
+
+            function divide(){
+                var n1 = parseFloat(document.getElementById("First_num").value),
+                n2 = parseFloat(document.getElementById("sec_num").value);
+                var n3 = n1 / n2;
+                console.log(n3);
+                document.getElementById("result-value").innerHTML = "Result: " +n3;
+               // console.log(document.getElementById("name").value);
+            }
+
+            function Multiply(){
+                var n1 = parseFloat(document.getElementById("First_num").value),
+                n2 = parseFloat(document.getElementById("sec_num").value);
+                var n3 = n1 * n2;
+                console.log(n3);
+                document.getElementById("result-value").innerHTML = "Result: " + n3;
+               // console.log(document.getElementById("name").value);
+            }
+           
+        </script>
+
+    </body>
+</html>
